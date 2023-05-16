@@ -43,6 +43,28 @@
 			max-width: 100%;
 			max-height: 100%;
 		}
+		@media only screen and (max-width: 767px) {
+			.gradient-line {
+				margin-bottom: 20px;
+			}
+			.location {
+				display: block;
+			}
+			.phone {
+				display: inline-block;
+				margin-top: 5px;
+				margin-bottom: 5px;
+			}
+		}
+		@media only screen and (max-width: 600px) {
+				
+			table.body .logo {
+				width:  112px;
+				max-width: none;
+				max-height: none;
+				margin-right: 20px;
+			}
+		}
 	</style>
 </head>
 <body>
@@ -55,7 +77,7 @@
 		<tr>
 			<td style="font-size:25px;text-transform:uppercase;">
 				<strong style="font-weight:bold;">Aroa García</strong> Dirección
-				<div style="font-size:0;padding-top:20px;">
+				<div class="gradient-line" style="font-size:0;padding-top:20px;">
 					<img src="gradient-line.png" alt="gradient-line" />
 				</div>
 			</td>
@@ -71,8 +93,8 @@
 		<tr>
 			<td>
 				<div>
-					<a href="tel:+34936073007" style="text-decoration: none;color:#363636;margin-right:14px;"><img style="display:inline-block;vertical-align:middle;margin-right:5px;" src="icon-phone.png" alt="icon phone" /> <span style="display:inline-block;vertical-align:middle;">+34 93 607 30 07</span></a>
-					<a href="#" style="text-decoration: none;color:#363636;"><img style="display:inline-block;vertical-align:middle;margin-right:5px;" src="icon-marker.png" alt="icon marker" /> <span style="display:inline-block;vertical-align:middle;">C/ Carme, 43, Nau 5 Local A,  08754 El Papiol</span></a>
+					<a href="tel:+34936073007" class="phone" style="text-decoration: none;color:#363636;margin-right:14px;"><img style="display:inline-block;vertical-align:middle;margin-right:5px;" src="icon-phone.png" alt="icon phone" /> <span style="display:inline-block;vertical-align:middle;">+34 93 607 30 07</span></a>
+					<a href="#" class="location" style="text-decoration: none;color:#363636;"><img style="display:inline-block;vertical-align:middle;margin-right:5px;" src="icon-marker.png" alt="icon marker" /> <span style="display:inline-block;vertical-align:middle;">C/ Carme, 43, Nau 5 Local A,  08754 El Papiol</span></a>
 				</div>
 			</td>
 		</tr>
